@@ -4,7 +4,7 @@ pipeline{
         jdk 'myjava'
         maven 'mymaven'
     }
-    agent {label 'qa_Server'}
+    agent {label 'qa'}
     stages{
         stage('checkout'){
             steps{
