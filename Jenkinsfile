@@ -8,7 +8,7 @@ pipeline{
     stages{
         stage('checkout'){
             steps{
-               git branch: 'qa', url: 'https://github.com/sonal04devops/JavaWebCalculator.git'
+               git branch: 'qa', url: 'https://github.com/skd1800/JavaWebCalculator.git'
             }
         }
          stage('Compile'){
